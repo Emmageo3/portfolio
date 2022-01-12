@@ -634,3 +634,39 @@ section{
     opacity: 1;
     visibility: visible;
 }
+
+.portfolio-container{
+    overflow: initial;
+}
+
+.portfolio-content{
+    padding: 0 1.5rem;
+}
+
+.portfolio-img{
+    width: 385px;
+    border-radius: .5rem;
+    justify-self: center;
+}
+
+.portfolio-title{
+    font-size: var(--h3-font-size);
+    margin-bottom: .5rem;
+}
+
+.portfolio-description{
+    margin-bottom: .75rem;
+}
+
+.portfolio-button:hover .button-icon{
+    transform: translateX(.25rem);
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after{
+    content: '';
+}
+
+.swiper-button-prev{
+    left: -.5rem;
+}

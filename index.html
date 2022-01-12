@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-------------------UNICONS------------------------------>
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <!--------------------swiper----------------------------->
+    <link rel="stylesheet" href="swiper-bundle.min.css">
     <!---------------------css-------------------------------->
     <link rel="stylesheet" href="style.css">
     <title>Portfolio | Emma Geo Kanfany</title>
@@ -493,12 +495,67 @@
             </div>
         </section>
 
+
+        <!---------portfolio------------>
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section-title">Portfolio</h2>
+            <span class="section-subtitle">Most recent work</span>
+            <div class="portfolio-container container swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/portfolio.png" alt="" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">My first portfolio</h3>
+                            <p class="portfolio-description">portfolio adaptable to all devices. and animated interactions</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo
+                                <i class="uil uil-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/todo.png" alt="" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">To do list</h3>
+                            <p class="portfolio-description">simple to do list adaptable to all devices. and animated interactions</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo
+                                <i class="uil uil-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio-content grid swiper-slide">
+                        <img src="img/partenariat.png" alt="" class="portfolio-img">
+                        <div class="portfolio-data">
+                            <h3 class="portfolio-title">Simplon website | partenariat section</h3>
+                            <p class="portfolio-description">website adaptable to all devices. and animated interactions</p>
+                            <a href="#" class="button button-flex button-small portfolio-button">
+                                Demo
+                                <i class="uil uil-arrow-right button-icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
     </main>
 
     
 
     
-
+    <script src="swiper-bundle.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
