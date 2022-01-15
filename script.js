@@ -110,7 +110,7 @@ window.addEventListener('scroll', scrollActive)
 function scrollHeader(){
     const nav = document.getElementById('header')
 
-    if(this.scrollY >= 80) scrollTop.classList.add('scroll-header'); else scrollTop.classList.remove('scroll-header')
+    if(this.scrollY >= 80) nav.classList.add('scroll-header'); else nav.classList.remove('scroll-header')
 }
 
 window.addEventListener('scroll', scrollHeader)
