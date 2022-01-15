@@ -309,6 +309,15 @@ section{
     transition: .3s;
 }
 
+.button-white{
+    background-color: #fff;
+    color: var(--first-color);
+}
+
+.button-white:hover{
+    background-color: #fff;
+}
+
 .button-flex{
     display: inline-flex;
     align-items: center;
@@ -644,7 +653,7 @@ section{
 }
 
 .portfolio-img{
-    width: 385px;
+    width: 300px;
     border-radius: .5rem;
     justify-self: center;
 }
@@ -669,4 +678,55 @@ section{
 
 .swiper-button-prev{
     left: -.5rem;
+}
+
+.swiper-button-next{
+    right: -.5rem;
+}
+
+.swiper-portfolio-icon{
+    font-size: 2rem;
+    color: var(--first-color);
+}
+
+.swiper-container-horizontal > .swiper-pagination-bullet{
+    bottom: -2.5rem;
+}
+
+.swiper-pagination-bullet-active{
+    background-color: var(--first-color);
+}
+
+.swiper-button-prev,
+.swiper-button-next,
+.swiper-pagination-bullet{
+    outline: none;
+}
+
+.project{
+    text-align: center;
+}
+
+.project-bg{
+    background-color: var(--first-color-second);
+    padding-top: 3rem;
+}
+
+.project-title{
+    font-size: var(--h2-font-size);
+    margin-bottom: .75rem;
+}
+
+.project-description{
+    margin-bottom: 1.5rem;
+}
+
+.project-title,
+.project-description{
+    color: #fff;
+}
+
+.project-img{
+    width: 232px;
+    justify-self: center;
 }
