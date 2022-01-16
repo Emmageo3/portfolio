@@ -98,9 +98,9 @@ function scrollActive(){
         sectionID = current.getAttribute('id')
 
         if(scrollY > sectionTop && scrollY <= sectionTop + sectionHeight){
-            document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.add('active-link')
+            document.querySelector('.nav-menu a[href*=' + sectionID + ']').classList.add('active-link')
         }else{
-            document.querySelector('.nav-menu a[href*=' + sectionId + ']').classList.remove('active-link')
+            document.querySelector('.nav-menu a[href*=' + sectionID + ']').classList.remove('active-link')
         }
     })
 }

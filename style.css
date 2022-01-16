@@ -16,6 +16,7 @@
     --input-color: hsl(var(--hue-color), 70%, 96%);
     --body-color: hsl(var(--hue-color), 60%, 99%);
     --container-color: #FFF;
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 80%);
 
     --body-font: arial, sans-serif;
 
@@ -58,6 +59,8 @@ body.dark-theme{
     --input-color: hsl(var(--hue-color), 29%, 16%);
     --body-color: hsl(var(--hue-color), 28%, 12%);
     --container-color: hsl(var(--hue-color), 29%, 16%);
+    --scroll-bar-color: hsl(var(--hue-color), 12%, 48%%);
+    --scroll-thumb-color: hsl(var(--hue-color), 12%, 36%)
 }
 
 .nav-btn{
@@ -888,4 +891,76 @@ section{
 
 .show-scroll{
     bottom: 5rem;
+}
+
+::-webkit-scrollbar{
+    width: .60rem;
+    background-color: rgb(241, 238, 238);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: var(--scroll-thumb-color);
+    border-radius: .5rem;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background-color: var(--text-color-light);
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 350px){
+    .container{
+        margin-left: 1rem;
+        margin-right: 1rem;
+    }
+
+    .nav-menu{
+        padding: 2rem .25rem 4rem;
+    }
+
+    .nav-list{
+        column-gap: 0;
+    }
+
+    .home-content{
+        grid-template-columns: .25fr 3fr;
+    }
+
+    .home-blob{
+        width: 180px;
+    }
+
+    .skills-tilte{
+        font-size: var(--normal-font-size);
+    }
+
+    .qualification-data{
+        gap: .5rem;
+    }
+
+    .services-container{
+        grid-template-columns: max-content;
+        justify-content: center;
+    }
+
+    .services-content{
+        padding-right: 3.5rem;
+    }
+
+    .services-modal{
+        padding: 0 .5rem;
+    }
+
+    .project-img{
+        width: 200px;
+    }
 }
