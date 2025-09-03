@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Emma Geo Kanfany</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <!-- Logo -->
+                <div class="logo">
+                    <div class="logo-icon">
+                        <i data-lucide="code"></i><br>
+                        <i data-lucide="sparkles" class="sparkles"></i>
+                    </div>
+                    <span class="logo-text">Emma Geo Kanfany</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <nav class="nav-desktop">
+                    <a href="/" class="nav-link active">Accueil</a>
+                    <a href="/projets.html" class="nav-link">Projets</a>
+                    <a href="/blog.html.erb" class="nav-link">Blog</a>
+                    <a href="#contact" class="nav-link">Contact</a>
+                </nav>
+
+                <!-- Mobile Menu Button -->
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+
+            <!-- Mobile Navigation -->
+            <nav class="nav-mobile" id="mobileNav">
+                <a href="#about" class="nav-link">Qui je suis</a>
+                <a href="#skills" class="nav-link">Compétences</a>
+                <a href="#projects" class="nav-link">Projets</a>
+                <a href="#blog" class="nav-link">Inspirations</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <!-- Animated Background Elements -->
+        <div class="hero-bg">
+            <div class="floating-element" style="top: 20%; left: 10%;">
+                <i data-lucide="code-2"></i>
+            </div>
+            <div class="floating-element delayed" style="top: 32%; right: 20%;">
+                <i data-lucide="sparkles"></i>
+            </div>
+            <div class="floating-element" style="bottom: 32%; left: 20%;">
+                <i data-lucide="flower"></i>
+            </div>
+            <div class="floating-element delayed" style="top: 64%; right: 32%;">
+                <i data-lucide="brain"></i>
+            </div>
+            
+            <!-- Decorative dots -->
+            <div class="dot" style="top: 40%; left: 25%;"></div>
+            <div class="dot large" style="bottom: 40%; right: 25%;"></div>
+            <div class="dot small" style="top: 60%; left: 50%;"></div>
+        </div>
+
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-title">
+                    <img src="/images/avatar.png" alt="Emma Avatar" class="hero-avatar">
+                    <h1>Emma Geo Kanfany</h1>
+                    <h2>
+                        Je conçois des interfaces élégantes qui allient
+                        <span class="highlight">
+                            beauté, précision et intelligence
+                            <i data-lucide="sparkles" class="title-sparkles"></i>
+                        </span>
+                    </h2>
+                    <div class="title-underline"></div>
+                </div>
+
+                <p class="hero-subtitle">
+                    Développeuse front-end et Tech lead, je transforme des idées en expériences web raffinées, 
+                    intégrant design pixel perfect et technologies d'intelligence artificielle.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Contactez-moi</a>
+                </div>
+
+                <div class="scroll-indicator">
+                    <a href="#about">
+                        <i data-lucide="chevron-down"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>Qui je suis</h2>
+                <div class="section-underline"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="intro">
+                        Je m'appelle <span class="highlight-text">Emma Kanfany</span>, passionnée par le web, 
+                        la finesse des détails et la puissance des technologies émergentes.
+                    </p>
+                    
+                    <p>
+                        Mon parcours m'a menée de l'intégration front-end pixel perfect à la co-construction 
+                        de plateformes innovantes avec des APIs d'intelligence artificielle.
+                    </p>
+
+                    <p>
+                        Aujourd'hui, je combine rigueur, créativité et intuition pour construire des interfaces 
+                        qui ont du sens. En tant que Tech lead chez <span class="highlight-text">Tambali</span>, 
+                        j'expérimente une tech alignée avec l'impact, l'esthétique et l'âme.
+                    </p>
+                </div>
+
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="heart"></i>
+                        </div>
+                        <h3>Douce</h3>
+                        <p>Une approche bienveillante et humaine dans chaque projet</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="lightbulb"></i>
+                        </div>
+                        <h3>Stratégique</h3>
+                        <p>Vision long terme et réflexion approfondie sur l'impact</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="code"></i>
+                        </div>
+                        <h3>Ancrée</h3>
+                        <p>Expertise technique solide et maîtrise des détails</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i data-lucide="palette"></i>
+                        </div>
+                        <h3>Créative</h3>
+                        <p>Innovation et esthétique au service de l'expérience utilisateur</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mes compétences</h2>
+                <div class="section-underline"></div>
+                <p class="section-subtitle">
+                    Trois pôles d'expertise qui se complètent pour créer des expériences web exceptionnelles
+                </p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i data-lucide="code"></i>
+                        <h3>Développement Web</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Intégration HTML5/CSS3 (Pixel Perfect)</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 98%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Responsive Design</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Animations CSS & transitions</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Collaboration front/back</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i data-lucide="brain"></i>
+                        <h3>Intelligence Artificielle & API</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Intégration d'APIs IA</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Génération de texte intelligente</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Synthèse et automatisation</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Deep Research & analyse</span>
+                                <span>80%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i data-lucide="globe"></i>
+                        <h3>Vision & Leadership</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Tech Lead mindset</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Pilotage produit & stratégie</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Mentorat & accompagnement</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-info">
+                                <span>Création de contenu pédagogique</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mes réalisations</h2>
+                <div class="section-underline"></div>
+                <p class="section-subtitle">
+                    Des projets concrets qui illustrent ma vision : allier technologie, impact social et excellence technique
+                </p>
+            </div>
+
+            <div class="projects-list">
+                <!-- Project 1: Tambali -->
+                <a class="project" href="https://tambali.ai/" target="_blank">
+                    <div class="project-image">
+                        <img src="/images/tambali.svg" alt="Tambali">
+                        <div class="project-badge">
+                            <i data-lucide="brain"></i>
+                            <span>Tambali</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Tambali</h3>
+                        <p class="project-subtitle">Concree, 2025</p>
+                        <p class="project-description">
+                            Tambali est une plateforme propulsée par l’intelligence artificielle qui vous aide à révéler votre idée d’entreprise idéale et à concevoir un plan d’amorçage sur mesure, pensé pour maximiser vos chances de réussite.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <h4>Technologies utilisées</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Ruby on Rails</span>
+                                <span class="tech-tag">API / openAI</span>
+                                <span class="tech-tag">Hotwire / Stimulus / Turbo</span>
+                            </div>
+                        </div>
+
+                        <div class="project-features">
+                            <h4>Réalisations clés</h4>
+                            <div class="features-grid">
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Conception stratégique du produit avec IA</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Intégration d’APIs d’intelligence artificielle</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Développement front-end pixel perfect</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Leadership technique en tant que Technical lead</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 2: MCTN -->
+                <a class="project reverse" href="https://www.philosapprendi.net/" target="_blank">
+                    <div class="project-image">
+                        <img src="/images/philos.png" alt="Plateforme MCTN">
+                        <div class="project-badge">
+                            <i data-lucide="sparkles"></i>
+                            <span>PhilosApprendi</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Philos Apprendi</h3>
+                        <p class="project-subtitle"></p>
+                        <p class="project-description">
+                            Philos Apprendi est une plateforme d’accompagnement pédagogique dédiée à la réussite en philosophie.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <h4>Technologies utilisées</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">Ruby on Rails</span>
+                                <span class="tech-tag">Hotwire / Stimulus / Turbo</span>
+                            </div>
+                        </div>
+
+                        <div class="project-features">
+                            <h4>Réalisations clés</h4>
+                            <div class="features-grid">
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Participation à la conception fonctionnelle de la plateforme</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Développement de l’application avec Ruby on Rails</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Optimisation de l’expérience apprenant</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Contribution à la vision produit et à la mise en ligne</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+
+                <!-- Project 3: Mentoring -->
+                <div class="project">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Mentoring Dev Bootcamp">
+                        <div class="project-badge">
+                            <i data-lucide="book-open"></i>
+                            <span>Formation</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mentoring Dev Bootcamp</h3>
+                        <p class="project-subtitle">Formation & Accompagnement</p>
+                        <p class="project-description">
+                            Programme de formation front-end pour jeunes talents.
+                        </p>
+                        <p class="project-details">
+                            <strong>Rôle :</strong> création de contenu pédagogique, encadrement, mise en ligne des supports.
+                        </p>
+                        
+                        <div class="project-tech">
+                            <h4>Technologies utilisées</h4>
+                            <div class="tech-tags">
+                                <span class="tech-tag">HTML5</span>
+                                <span class="tech-tag">CSS3</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">React</span>
+                            </div>
+                        </div>
+
+                        <div class="project-features">
+                            <h4>Réalisations clés</h4>
+                            <div class="features-grid">
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Contenu pédagogique structuré</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Encadrement personnalisé</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Supports interactifs en ligne</span>
+                                </div>
+                                <div class="feature">
+                                    <div class="feature-dot"></div>
+                                    <span>Suivi de progression</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-cta" style="margin-top: 3rem;">
+                <a href="/projets" class="btn btn-primary">
+                    Voir tous mes projets
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <div class="section-header">
+                <h2>Inspirations & Réflexions</h2>
+                <div class="section-underline"></div>
+                <p class="section-subtitle">
+                    Pensées sur l'intelligence artificielle, le rôle des femmes dans la tech, spiritualité et vision produit
+                </p>
+            </div>
+
+            <!-- Quote Section -->
+            <div class="inspiration-quote">
+                <blockquote>
+                    "Créer, pour moi, ce n'est pas juste coder. C'est traduire une intention, une émotion, une idée. 
+                    C'est faire dialoguer l'humain et la machine."
+                </blockquote>
+                <p class="quote-author">— Emma Kanfany</p>
+            </div>
+
+            <!-- Other Posts -->
+            <div class="posts-grid">
+                <div class="post-card">
+                    <div class="post-image">
+                        <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Leadership">
+                        <div class="post-badge">
+                            <i data-lucide="heart"></i>
+                            <span>Leadership</span>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <div class="meta-item">
+                                <i data-lucide="calendar"></i>
+                                <span>8 Mars 2024</span>
+                            </div>
+                        </div>
+                        <h3>Être femme et Lead Tech : vision et authenticité</h3>
+                        <p>
+                            Mon parcours vers le leadership technique, les défis rencontrés et comment cultiver une vision stratégique tout en restant fidèle à ses valeurs.
+                        </p>
+                        <a href="<%= femme_lead_path %>" class="read-more">
+                            Lire l'article
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="post-card">
+                    <div class="post-image">
+                        <img src="https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Spiritualité">
+                        <div class="post-badge">
+                            <i data-lucide="sparkles"></i>
+                            <span>Vision & Spiritualité</span>
+                        </div>
+                    </div>
+                    <div class="post-content">
+                        <div class="post-meta">
+                            <div class="meta-item">
+                                <i data-lucide="calendar"></i>
+                                <span>28 Février 2024</span>
+                            </div>
+                        </div>
+                        <h3>Spiritualité et technologie : un équilibre possible</h3>
+                        <p>
+                            Comment allier développement personnel, intuition et rigueur technique pour créer des produits qui ont une âme et un impact positif.
+                        </p>
+                        <a href="#" class="read-more">
+                            Lire l'article
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="blog-cta">
+                <a href="/blog" class="btn btn-primary">
+                    Voir toutes mes réflexions
+                    <i data-lucide="arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Un projet ? Une idée à discuter ?</h2>
+                <div class="section-underline"></div>
+                <p class="section-subtitle">
+                    Écrivez-moi ou connectons-nous sur LinkedIn. Je serais ravie d'échanger sur vos projets et visions.
+                </p>
+            </div>
+
+            <div class="contact-content">
+                <!-- Contact Form -->
+                <div class="contact-form">
+                    <div class="form-header">
+                        <i data-lucide="message-circle"></i>
+                        <h3>Envoyer un message</h3>
+                    </div>
+                    <form id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Nom complet</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Entreprise / Projet (optionnel)</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Votre message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Parlez-moi de votre projet, vos besoins, ou simplement de ce qui vous inspire..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary full-width">
+                            <i data-lucide="send"></i>
+                            Envoyer le message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-intro">
+                        <h3>Restons connectés</h3>
+                        <p>
+                            Que vous ayez un projet ambitieux, une vision à concrétiser, ou simplement envie d'échanger 
+                            sur l'innovation technologique et l'impact social, je serais ravie de vous entendre.
+                        </p>
+                    </div>
+
+                    <div class="contact-details">
+                        <a href="mailto:kanfanyemma22@gmail.com" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="mail"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>kanfanyemma22@gmail.com</p>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/emma-geo-kanfany/" class="contact-item">
+                            <div class="contact-icon">
+                                <i data-lucide="linkedin"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/emmakanfany</p>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Availability -->
+                    <div class="availability">
+                        <h4>Disponibilité</h4>
+                        <p>Ouverte aux collaborations, missions et projets d'impact. Réponse sous 24h.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <div class="logo-icon">
+                            <i data-lucide="code"></i>
+                            <i data-lucide="sparkles" class="sparkles"></i>
+                        </div>
+                        <span class="logo-text">Emma Geo Kanfany</span>
+                    </div>
+                    <p>
+                        Développeuse fullstack passionnée par l'alliance entre beauté, 
+                        précision technique et intelligence artificielle.
+                    </p>
+                </div>
+
+                <div class="footer-nav">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li>
+                            <a href="/">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="/projets">Projets</a>
+                        </li>
+                        <li>
+                            <a href="/blog">Blog</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-services">
+                    <h3>Expertise</h3>
+                    <ul>
+                        <li>Développement Front-End</li>
+                        <li>Intégration Pixel Perfect</li>
+                        <li>Intégration IA & APIs</li>
+                        <li>Vision Tech lead & Stratégie</li>
+                        <li>Mentoring & Formation</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-credits">
+                    <span>Créé avec</span>
+                    <i data-lucide="heart"></i>
+                    <span>et passion par Emma Geo Kanfany</span>
+                </div>
+                <div class="footer-copyright">
+                    © 2024 Emma Geo Kanfany. Tous droits réservés.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
